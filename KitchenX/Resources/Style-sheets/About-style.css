@@ -1,0 +1,70 @@
+/* this is the style-sheet of about us page */
+
+
+
+
+
+ 
+    .content{
+
+    
+        margin: 5px 6px 60px 285px;
+        padding: 5px 6px 60px 30px;
+        color: darkslategrey;
+        align-content: center;
+        text-align: center;
+        font-size: 35px;
+        font-family: cursive;
+        width: 55%;
+        
+    
+    }
+    .team{ 
+        margin: 5px 6px 60px 2px;
+        padding: 5px 6px 60px 0px;
+        color: darkslategrey;
+        align-content: center;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+
+    }
+    #images{
+
+        text-align: center;  
+        margin:  5px 6px 60px 10%;
+        
+     }
+     #team{
+         margin: inherit;
+     }
+    table{
+        
+        align-content: stretch;
+        margin: 10px 10px 10px 10px;
+    
+    }
+    th{
+        margin: 10px 10px 10px 10px;
+        align-content: center;
+        text-align: center;
+    }
+    td{
+        margin: 10px 10px 30px 10px;
+        padding:  10px 10px 30px 10px;
+        align-content: center;
+    }
+    .content-team{
+        margin: 10px 10px 30px 25px;
+        padding:  10px 10px 30px 25px;
+        align-content: center;
+    }
+
+    #team-members,#img{
+        box-shadow: 2px 5px 0 gray,0 2px 5px 0 cadetblue;
+        border-style: solid;
+        border-color: blanchedalmond;
+   }
+   #members{
+     text-align: left;
+  }

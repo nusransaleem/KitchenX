@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<!--this is home page of the our website ,in this page describes our product details,how to use and feature
+style with home-style style sheet
+-->
+
+
+<html>
+<link rel="icon" href="Resources\images\title-logo.jpg">
+<title>HOME</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Resources\Style-sheets\Main-style.css">
+<link rel="stylesheet" href="Resources\Style-sheets\Home-style.css">
+
+<style>
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
+
+<body>
+
+    <div class="header">
+
+        <div class="header-box" style="letter-spacing:4px;">
+
+            <div class="header-head">
+                <img src="Resources\images\xx.jpg" id="title-logo" width="100" height="100" />
+                <font class="title">Kitchen-X</font>
+                <a id="title-sub">Online food ordering system</a>
+            </div>
+
+            <div class="header-buttons">
+                <a href="home.html" class="header-links">Home</a>
+                <a href="dashboard.php" class="header-links">Dashboard</a>
+                <a href="contact_Us.html" class="header-links">Contact</a>
+                <a href="about_Us.html" class="header-links">About</a>
+
+                <div class="dropdown">
+
+                    <button class="header-links">::</button>
+
+                    <div class="dropdown-content">
+                        <a href="logout.php">Logout</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside class="aside-navigation">
+        <nav class="side-navigation">
+            <div class="side-navigation-bar">
+
+                <div class="side-navigation-title">
+                    <b> Kitchen-X</b>
+                </div>
+
+                <div class="side-navigation-item">
+                    <a href="#welcome" class="side-navigation-links">
+                        Welcome
+                    </a>
+                </div>
+
+                <div class="side-navigation-item">
+                    <a href="#features" class="side-navigation-links">
+                        Features
+                    </a>
+                </div>
+
+                <div class="side-navigation-item">
+                    <a href="#HowToUse" class="side-navigation-links">
+                        How to use
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </aside>
+
+    <div class="body-content" id="welcome">
+
+        <div class="container">
+            <font class="body-header" id="content-head">Welcome to KitchenX</font>
+            <div class="content" >
+                <font>
+                    KitchenX is a smart inventory control system,
+                    <br> which can help home makers,working crowd and many others for manage their kitchen inventory automatically.
+                    <br>
+                    <b>We dont need to monitor our invrntory for daily cooking.
+                        <br>
+                        <span id="features">---------</span>
+                </font>
+
+            </div>
+
+        </div>
+
+        <div class="container" >
+            <font class="body-header" id="content-head">KitchenX Features</font>
+            <div class="content" id="content-box">
+                <font class="content-sub-head">Web Application</font>
+                <font>
+                    <ul>
+                        <li>Check usage of last month</li>
+                        <li>Check current storage</li>
+                        <li>check ordered items</li>
+                        <li>check item,which is low in weight</li>
+                        <li>place order</li>
+                        <br>
+                    </ul>
+                
+
+                <font class="content-sub-head">Mobile Application</font>
+                
+                    <ul>
+                        <li>Place Order</li>
+                        <li>check ordered items</li>
+                        <li>recieve a message,any items is low in weight</li>
+                        <br>
+                    </ul>
+                    <span id="HowToUse">---------</span>
+                </font>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <font class="body-header" id="content-head">How to use</font>
+            <div class="content" id="content-box">
+                <font class="content-sub-head">Steps</font>
+                <font>
+                    <ol>
+                        <li>Setup your device</li>
+                        <li>Install PC application and Mobile app</li>
+                        <li>Register from any of application above</li>
+                        <li>login</li>
+                        <li>Access your features</li>
+                        <br>
+                    </ol>
+                    <span id="images">---------</span>
+                </font>
+
+            </div>
+
+        </div>
+<!--
+        <div class="container">
+
+            <font class="body-header" id="content-head">Images</font>
+            <div class="content">
+                <img src="Resources/images/img.jpg" />
+            </div>
+
+        </div>
+
+    </div>
+
+-->
+    <footer>
+        <font>Product by SN
+            <sup>2</sup> KIWI @ 2018</font>
+
+    </footer>
+
+
+</body>
+
+</html>

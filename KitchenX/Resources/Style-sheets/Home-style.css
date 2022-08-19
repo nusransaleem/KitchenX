@@ -1,0 +1,46 @@
+
+/*this is the style-sheet of home page */
+
+
+.content{
+
+    
+    margin: 5px 6px 60px 285px;
+    padding: 5px 6px 60px 30px;
+    color: darkslategrey;
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family:cursive;
+    width: 55%;
+    
+
+}
+#content-head{
+
+    font-size: 75px;
+    font-weight: bold;   
+    font-family: cursive;
+    color: cadetblue;
+    padding-bottom: 45px;
+    
+}
+#welcome{
+
+    align-content: center;
+}
+.content-sub-head{
+
+    color:black;
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+#content-box{
+
+   
+    background-image: url("..\\..\\Resources\\images\\whiteBg.jpg");
+    box-shadow:2px cornflowerblue,5px cornflowerblue,1px cornflowerblue,1px cornflowerblue;
+}

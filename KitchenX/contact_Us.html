@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<!-- this is the conatct us page , user can send a inquery to our team,and this page show our address,tel No, and email address
+this page styled by contactUs style sheet
+inquery.php file is the back end file of this file
+ -->
+<html>
+<link rel="icon" href="Resources\images\title-logo.jpg">
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Resources\Style-sheets\Main-style.css">
+<link rel="stylesheet" href="Resources\Style-sheets\Contact-style.css">
+
+<style>
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
+
+<body>
+
+    <div class="header">
+
+        <div class="header-box" style="letter-spacing:4px;">
+            <div class="header-head">
+                <img src="Resources\images\xx.jpg" id="title-logo" width="100" height="100" />
+                <font class="title">Kitchen-X</font>
+                <a id="title-sub">Online food ordering system</a>
+            </div>
+
+            <div class="header-buttons">
+                <a href="home.html" class="header-links">Home</a>
+                <a href="dashboard.php" class="header-links">Dashboard</a>
+                <a href="contact_Us.html" class="header-links">Contact</a>
+                <a href="about_Us.html" class="header-links">About</a>
+
+                <div class="dropdown">
+
+                    <button class="header-links">::
+
+                    </button>
+                    <div class="dropdown-content">
+                         <a href="logout.php">Logout</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <aside class="aside-navigation">
+        <nav class="side-navigation">
+            <div class="side-navigation-bar">
+
+                <div class="side-navigation-title">
+                    Kitchen-X
+                </div>
+
+                <div class="side-navigation-item">  
+                        <a href="#message" class="side-navigation-links">
+                            Message
+                        </a>
+                    </div>
+                
+                    <div class="side-navigation-item">  
+                            <a href="#phoneNumber" class="side-navigation-links">
+                                Phone 
+                            </a>
+                        </div>
+    
+                    <div class="side-navigation-item">  
+                        <a href="#address" class="side-navigation-links">
+                            Address
+                        </a>
+                    </div>
+
+                    <div class="side-navigation-item">  
+                        <a href="#email" class="side-navigation-links">
+                            Email
+                        </a>
+                    </div>
+               
+
+            </div>
+        </nav>
+    </aside>
+
+    <div class="body-content" id="message">
+        <font class=body-header>Contact Us</font>
+        <div class="container" >
+            <div id=contact-form-title> 
+              <font>&#9993 Your Message here!</font>
+            </div>
+
+            <form action="inquery.php" method="POST">
+
+                <label for="fname" class="lbl-Contact">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="email" class="lbl-Contact">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                <label for="Rate_us" class="lbl-Contact">Rate Us</label>
+                <select id="rate" name="rate">
+                    <option value="1">Very Good</option>
+                    <option value="2">Good</option>
+                    <option value="3">Average</option>
+                    <option value="4">Bad</option>
+                    <option value="5">Worst</option>
+                </select>
+
+                <label for="subject" class="lbl-Contact">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+        </div>
+
+        <div class="container">
+            <label for="phoneNumber" id="phoneNumber">Phone Number</label><br>
+            <font class="contact-details">
+                    &#9743 0112 34567<br>&#9743 0774742051
+            </font>
+          
+
+        </div>
+        <div class="container">
+            <label for="email" id="email">Email</label><br>
+            <font class="contact-details">
+                    &#9993 kitchenx@gmail.com
+
+            </font>
+
+        </div>
+        <div class="container">
+            <label for="address" id="address">Address</label><br>
+            <font class="contact-details">
+                    &#9992 kitchenX(Pvt)Ltd- No 102,Main Street,<br>Colombo-03
+
+            </font>
+
+        </div>
+
+        
+    </div>
+
+    <footer>
+        <font>Product by SN
+            <sup>2</sup> KIWI @ 2018</font>
+
+    </footer>
+</body>
+
+</html>
